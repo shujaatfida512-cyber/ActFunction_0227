@@ -16,7 +16,7 @@ int rectangleArea()
 {
     return length * width;
 }
-
+//This function multiplies length and width values
 void output()
 {
     cout << "The area is: " << rectangleArea();
@@ -27,5 +27,6 @@ int main()
     input();
     output();
 }
+
 
 
