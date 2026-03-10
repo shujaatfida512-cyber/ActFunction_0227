@@ -11,8 +11,8 @@ void input()
     cout << "Enter width: ";
     cin >> width;
 }
-//Capitalize the letters for more clarity
-int RectangleArea(int a, int b)
+//This will get values of length and width
+int rectangleArea(int a, int b)
 {
     return a * b;
 }
@@ -34,3 +34,4 @@ int main()
 
     cout << "The perimeter is: " << rectanglePerimeter(length, width);
 }
+
