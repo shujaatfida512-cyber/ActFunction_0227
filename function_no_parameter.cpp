@@ -1,25 +1,25 @@
 #include <iostream>
 using namespace std;
 
-int panjang, lebar;
+int length, width;
 
 void input()
 {
-    cout << "Masukkan Panjang : ";
-    cin >> panjang;
+    cout << "Enter length: ";
+    cin >> length;
 
-    cout << "Masukkan Lebar : ";
-    cin >> lebar;
+    cout << "Enter width: ";
+    cin >> width;
 }
 
-int luasPersegi()
+int rectangleArea()
 {
-    return panjang * lebar;
+    return length * width;
 }
 
 void output()
 {
-    cout << "Hasilnya : " << luasPersegi();
+    cout << "The area is: " << rectangleArea();
 }
 
 int main()
