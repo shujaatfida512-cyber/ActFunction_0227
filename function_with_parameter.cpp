@@ -1,30 +1,30 @@
 #include <iostream>
 using namespace std;
 
-int panjang, lebar;
+int length, width;
 
 void input()
 {
-    cout << "Masukkan Panjang : ";
-    cin >> panjang;
+    cout << "Enter length: ";
+    cin >> length;
 
-    cout << "Masukkan Lebar : ";
-    cin >> lebar;
+    cout << "Enter width: ";
+    cin >> width;
 }
-
-int luasPersegi(int a, int b)
+//Capitalize the letters for more clarity
+int RectangleArea(int a, int b)
 {
     return a * b;
 }
 
-int kelilingPersegi(int a, int b)
+int rectanglePerimeter(int a, int b)
 {
     return 2 * (a + b);
 }
 
 void output()
 {
-    cout << "Luasnya : " << luasPersegi(panjang, lebar) << endl;
+    cout << "The area is: " << rectangleArea(length, width) << endl;
 }
 
 int main()
@@ -32,5 +32,5 @@ int main()
     input();
     output();
 
-    cout << "Kelilingnya : " << kelilingPersegi(panjang, lebar);
+    cout << "The perimeter is: " << rectanglePerimeter(length, width);
 }
