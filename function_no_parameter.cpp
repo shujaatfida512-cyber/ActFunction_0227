@@ -2,7 +2,7 @@
 using namespace std;
 
 int length, width;
-
+//This is the function to get input from user
 void input()
 {
     cout << "Enter length: ";
@@ -27,3 +27,4 @@ int main()
     input();
     output();
 }
+
